@@ -25,5 +25,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r lecture_4/requirements.txt
       - name: Run lecture 4 tests
-        run: pytest -vv --strict --showlocals --cov=python-backend/lecture_4/demo_service python-backend/tests/lecture_4/hw/
+        run: pytest -vv --strict --showlocals --cov=/lecture_4/demo_service python-backend/tests/lecture_4/hw/
 
